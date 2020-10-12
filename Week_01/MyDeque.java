@@ -2,7 +2,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 public class MyDeque {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//改写Deque
         Deque<String> deque = new LinkedList<String>();
         deque.offerFirst("a");
         deque.offerFirst("b");
